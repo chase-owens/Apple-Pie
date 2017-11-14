@@ -12,6 +12,7 @@
 		5D9DBF251FB51814000DACAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9DBF231FB51814000DACAD /* Main.storyboard */; };
 		5D9DBF271FB51814000DACAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9DBF261FB51814000DACAD /* Assets.xcassets */; };
 		5D9DBF2A1FB51814000DACAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9DBF281FB51814000DACAD /* LaunchScreen.storyboard */; };
+		5DE2059C1FB74F9B001E24FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2059B1FB74F9B001E24FB /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D9DBF261FB51814000DACAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9DBF291FB51814000DACAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D9DBF2B1FB51814000DACAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE2059B1FB74F9B001E24FB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5D9DBF1F1FB51813000DACAD /* AppDelegate.swift */,
 				5D9DBF211FB51813000DACAD /* ViewController.swift */,
 				5D9DBF231FB51814000DACAD /* Main.storyboard */,
+				5DE2059B1FB74F9B001E24FB /* Game.swift */,
 				5D9DBF261FB51814000DACAD /* Assets.xcassets */,
 				5D9DBF281FB51814000DACAD /* LaunchScreen.storyboard */,
 				5D9DBF2B1FB51814000DACAD /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9DBF221FB51813000DACAD /* ViewController.swift in Sources */,
+				5DE2059C1FB74F9B001E24FB /* Game.swift in Sources */,
 				5D9DBF201FB51813000DACAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
