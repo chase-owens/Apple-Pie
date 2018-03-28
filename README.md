@@ -12,7 +12,7 @@ Apple Pie begins with a picture of an apple tree with 7 apples with all letter o
 ### Landscape View
 ![aplTree](https://farm1.staticflickr.com/876/40181016295_b3850ea354_b.jpg)
 
-###Portriat View
+### Portriat View
 ![aplTree2](https://farm1.staticflickr.com/801/27202092168_f65a4640d4_b.jpg)
 
 I had a lot of fun making this. Thanks for checking it out!
