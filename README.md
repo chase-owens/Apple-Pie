@@ -4,9 +4,9 @@ Apple Pie is a word guessing game, similar to hangman, that is a bit more kid fr
 ## Project Details
 Apple Pie begins with a picture of an apple tree with 7 apples with all letter options enabled. The Apple Pie was a project in the *App Development with Swift* course available in iBooks.
 1. After letters are selected, they are disabled.
-2. When the user correctly guesses, a letter it appears where the blanks are.
+2. When the user correctly guesses, a letter it appears where the blanks are and they are awareded 3 points.
 3. When the user guesses incorrectly, an apple falls from the tree.
-4. When the word is guessed the user gets 3 points. 
+4. When all the letters are correctly guessed and the word is showing the user gets 3 points. 
 5. If all of the apples fall off the tree, the game resets and another word is provided. 
 
 ### Landscape View
